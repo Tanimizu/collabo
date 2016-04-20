@@ -41,7 +41,7 @@ final class StaticWordLibrary extends WordLibrary {
         "ambiguous",
         "arithmetic",
         "backslash",
-        "bitmap",
+        
         "circumstance",
         "combination",
         "consequently",
@@ -81,14 +81,17 @@ final class StaticWordLibrary extends WordLibrary {
         "hotjava",
         "vertex",
         "unsigned",
-        "traditional"};
+        "traditional",
+        "school",
+        "apple",
+        "computer"};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "batsartcoin",
         "maibuguos",
         "ratimhteci",
         "abkclssha",
-        "ibmtpa",
+       
         "iccrmutsnaec",
         "ocbmnitaoni",
         "ocsnqeeutnyl",
@@ -128,7 +131,10 @@ final class StaticWordLibrary extends WordLibrary {
         "ohjtvaa",
         "evtrxe",
         "nuisngde",
-        "rtdatioialn"
+        "rtdatioialn",
+        "closoho",
+        "plpea",
+        "rmutcoep"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
