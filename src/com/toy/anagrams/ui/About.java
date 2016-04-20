@@ -75,7 +75,7 @@ public class About extends JDialog {
         getContentPane().setLayout(new java.awt.GridBagLayout());
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("About Anagrams");
+        setTitle("アナグラムについて");
         mainPanel.setLayout(new java.awt.GridBagLayout());
 
         mainPanel.setBorder(new javax.swing.border.EmptyBorder(new java.awt.Insets(11, 11, 12, 12)));
@@ -97,7 +97,7 @@ public class About extends JDialog {
         mainPanel.add(copyrightTextArea, gridBagConstraints);
 
         closeButton.setMnemonic('C');
-        closeButton.setText("Close");
+        closeButton.setText("閉じる");
         closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 closeButtonActionPerformed(evt);
