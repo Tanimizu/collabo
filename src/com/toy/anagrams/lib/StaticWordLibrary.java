@@ -161,6 +161,18 @@ final class StaticWordLibrary extends WordLibrary {
      */
     public String getScrambledWord(int idx) {
     	String s = WORD_LIST[idx];
+    	String t = selectLevel.getModel;
+    	if(t=="level1") {
+    		return shuffle(s);
+    	} else if(t=="level2") {
+    		shuffle(s);
+    		return shuffle(shuffle(s));
+    	} else if(t=="level3") {
+    		shuffle(s);
+    		return shuffle(shuffle(suffle(s)));
+    		
+    		
+    	}
     	return shuffle(s);
     }
 
