@@ -86,7 +86,7 @@ final class StaticWordLibrary extends WordLibrary {
         "apple",
         "computer"};
 
-    private static final String[] SCRAMBLED_WORD_LIST = {
+    /*private static final String[] SCRAMBLED_WORD_LIST = {
         "batsartcoin",
         "maibuguos",
         "ratimhteci",
@@ -135,7 +135,7 @@ final class StaticWordLibrary extends WordLibrary {
         "closoho",
         "plpea",
         "rmutcoep"
-    };
+    };*/
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
@@ -160,7 +160,8 @@ final class StaticWordLibrary extends WordLibrary {
      * @return word at that index in its scrambled form
      */
     public String getScrambledWord(int idx) {
-        return SCRAMBLED_WORD_LIST[idx];
+    	String s = WORD_LIST[idx];
+    	return shuffle(s);
     }
 
     /**
